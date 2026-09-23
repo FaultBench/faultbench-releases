@@ -1,12 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="260" height="40" viewBox="0 0 260 40" role="img" aria-label="Status: alpha 0.1.0">
-  <title>Status: alpha 0.1.0</title>
-  <rect width="260" height="40" rx="20" fill="#122442"/>
-  <rect x="1" y="1" width="258" height="38" rx="19" fill="none" stroke="#0061FD" stroke-width="2" opacity="0.55"/>
+<!--
+  "Alpha — pre-release" pill for the README header.
+
+  Carries no version number on purpose. The previous version read
+  "0.1.0 · macOS pending", which meant every release either shipped a badge
+  naming the wrong version or needed this file edited by hand. Version and
+  platform status are shields.io badges in README.md instead, generated from
+  the latest release, so they cannot go stale.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="224" height="40" viewBox="0 0 224 40"
+     role="img" aria-label="Status: alpha, a pre-release build">
+  <title>Alpha — a pre-release build</title>
+
+  <rect width="224" height="40" rx="20" fill="#122442"/>
+  <rect x="1" y="1" width="222" height="38" rx="19" fill="none" stroke="#0061FD" stroke-width="2" opacity="0.55"/>
+
   <circle cx="26" cy="20" r="7" fill="#0061FD"/>
   <circle cx="26" cy="20" r="3" fill="#FFFFFF"/>
-  <text x="46" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+
+  <text x="46" y="26"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
         font-size="15" font-weight="700" letter-spacing="1.6" fill="#FFFFFF">ALPHA</text>
+
   <line x1="123" y1="11" x2="123" y2="29" stroke="#0061FD" stroke-width="2" opacity="0.5"/>
-  <text x="137" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-        font-size="15" font-weight="500" letter-spacing="0.4" fill="#8FB6FF">0.1.0 · macOS pending</text>
+
+  <text x="174" y="26" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="14" font-weight="500" letter-spacing="0.3" fill="#8FB6FF">pre-release</text>
 </svg>
